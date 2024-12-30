@@ -49,7 +49,9 @@ Figure -02 HALF Subtractor
 
 
 **Program:**
+
 i)HALF ADDER
+```
 
 module ha(a,b,sum,carry);
 input a,b;
@@ -57,7 +59,9 @@ output sum,carry;
 assign sum= (a ^ b);
 assign carry= ( a & b);
 endmodule
+```
 ii)HALF SUBTRACTOR
+```
 
 module hs(a,b,difference,borrow);
 input a,b;
@@ -65,19 +69,23 @@ output difference,borrow;
 assign difference= (a ^ b);
 assign borrow= ( ~a & b);
 endmodule
+```
 
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-
-Developed by:Boopesh P RegisterNumber:24001306
+```
+Developed by:Boopesh P 
+RegisterNumber:24001306
+```
 
 **RTL Schematic**
-![Screenshot 2024-12-03 094055](https://github.com/user-attachments/assets/f830b363-9498-4d03-8d2c-f193e5a2ce1b)
-![Screenshot 2024-12-03 094100](https://github.com/user-attachments/assets/3f8c2802-69c2-4126-b2bc-34c76303db22)
+![Screenshot 2024-12-30 054328](https://github.com/user-attachments/assets/020b7c81-c8c3-4ba2-a394-cf44c80c421d)
 
+![Screenshot 2024-12-30 054345](https://github.com/user-attachments/assets/6eb6bf0c-904c-41c8-a97a-64e0be47a09e)
 
 **Output/TIMING Waveform**
-![Screenshot 2024-12-03 094110](https://github.com/user-attachments/assets/db38bd6b-bcfd-4c81-98cd-117e9cea3895)
-![Screenshot 2024-12-03 094118](https://github.com/user-attachments/assets/4333324a-3eb4-468e-aff3-71623ca9fcb8)
+![Screenshot 2024-12-30 054356](https://github.com/user-attachments/assets/24cbc52b-1741-4805-a420-eeba638b42b8)
+
+![Screenshot 2024-12-30 054407](https://github.com/user-attachments/assets/cd4fa8ec-5f64-41a9-82a3-5f26a6c8af5a)
 
 
 **Result:**
